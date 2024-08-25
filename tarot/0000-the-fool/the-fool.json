@@ -1,0 +1,24 @@
+{
+    "name": "The Fool",
+    "meanings": {
+        "general": "The Fool card represents new beginnings, innocence, spontaneity, and a free spirit.",
+        "short_meaning": "New beginnings, innocence, spontaneity.",
+        "reversal_meaning": "Reversed, The Fool can indicate recklessness, foolishness, or taking unnecessary risks."
+    },
+    "short_description": "A youth standing on the edge of a cliff, about to step into the unknown.",
+    "detailed_description": "The Fool card depicts a youth standing on the edge of a cliff, about to take a leap into the unknown. The Fool symbolizes new beginnings, innocence, spontaneity, and a free spirit. The small dog at the youth's heels represents loyalty and protection.",
+    "occult_properties": {
+        "element": "Air",
+        "planet": "Uranus",
+        "astrological_sign": "Aquarius",
+        "number": 0
+    },
+    "related_gemstones": ["Amethyst", "Aquamarine", "Clear Quartz"],
+    "poems": {
+        "general": "The Fool steps forth, unburdened and free,\nInto the realm of possibility.\nWith each new step, a world unfolds,\nAs tales untold, within him, behold.",
+        "short_poem": "A leap of faith, a journey anew,\nInnocence guides as the path ensues.",
+        "reversal_poem": "Reckless strides into the dark,\nA foolish heart, a faltering spark."
+    },
+    "order": 0,
+    "image_url": "./images/tarot/000.png"
+}

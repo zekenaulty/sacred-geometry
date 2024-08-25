@@ -1,0 +1,24 @@
+{
+    "name": "The Magician",
+    "meanings": {
+        "general": "The Magician represents manifestation, resourcefulness, power, and inspired action. It signifies the ability to turn visions into reality and to harness the power of the universe to achieve your goals.",
+        "short_meaning": "Manifestation, resourcefulness, power, inspired action.",
+        "reversal_meaning": "Manipulation, poor planning, untapped talents, lack of direction."
+    },
+    "short_description": "The Magician stands as a powerful figure, bridging the gap between the divine and the earthly. With one hand pointing to the heavens and the other to the ground, he channels spiritual energy to manifest his desires. He is surrounded by symbols of the four elements, representing his mastery over the physical world.",
+    "detailed_description": "The Magician is a symbol of power, concentration, and action. He possesses the tools and knowledge to bring about change, using his will and skill to manifest his goals. The infinity symbol above his head indicates his infinite potential, while the tools of the elements on the table before him—cup, sword, pentacle, and wand—signify his command over earth, air, fire, and water. The Magician encourages taking initiative and using your talents to achieve your goals, knowing that the universe supports your endeavors.",
+    "occult_properties": {
+        "element": "Air",
+        "planet": "Mercury",
+        "astrological_sign": "Gemini",
+        "number": 1
+    },
+    "related_gemstones": ["Citrine", "Clear Quartz", "Tiger's Eye"],
+    "poems": {
+        "general": "With hands of skill and mind of might,\nThe Magician brings the dark to light.\nAbove and below, his power is clear,\nManifesting dreams, conquering fear.",
+        "short_poem": "As above, so below,\nThe Magician makes it so.",
+        "reversal_poem": "When power is misused or plans awry,\nThe magic fades, the spirit runs dry."
+    },
+    "order": 1,
+    "image_url": ""
+}
