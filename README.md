@@ -2,6 +2,8 @@
 A public collection of art created using ChatGPT, Gemeni, Meta, and other "tools"
 Certainly! Let’s blend the ideas we’ve discussed, focusing on sacred geometry, the complexity of simplicity, hidden meanings, and the interplay between order and chaos. 
 
+I also want to state, that image files are numbers to help manage git's internal file name limit. I would give you the full prompt if possible. The process I'm using is more like Bob Ross than it is precision, it's artful, in my opinion. 
+
 ### **Concept: "The Paradox of Sacred Order"**
 
 **Overview:**
