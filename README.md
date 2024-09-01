@@ -1,5 +1,5 @@
 # sacred-geometry
-A public collection of art created using ChatGPT, Gemeni, Meta, and other "tools"
+A public collection of art created using ChatGPT, Gemini, Meta, and other "tools"
 
 Certainly! Let’s blend the ideas we’ve discussed, focusing on sacred geometry, the complexity of simplicity, hidden meanings, and the interplay between order and chaos. 
 
