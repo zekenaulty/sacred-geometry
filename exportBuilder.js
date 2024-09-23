@@ -7,11 +7,11 @@ const validImageTypes = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'bmp', 'tiff', 'sv
 function sanitizeVariableName(name, usedNames) {
   let sanitizedName = name.replace(/[^a-zA-Z0-9_]/g, '_');
   let counter = 1;
-  while (usedNames.has(sanitizedName)) {
+  while (usedNames.has('$' + sanitizedName)) {
     sanitizedName = `${sanitizedName}_${counter++}`;
   }
-  usedNames.add(sanitizedName);
-  return sanitizedName;
+  usedNames.add('$' + sanitizedName);
+  return '$' + sanitizedName;
 }
 
 // Function to create or update the index.js file in each subdirectory with images
@@ -40,9 +40,9 @@ function createIndexFiles(directoryPath) {
       const indexJsContent = `
 ${imageFiles.map(filePath => {
         const sanitizedName = sanitizeVariableName(path.basename(filePath), usedNames);
-        const relativePath = path.relative(directoryPath, filePath).replace('\\','/'); // Calculate relative path from the root directory
+        const relativePath = path.relative(directoryPath, filePath).replace(/\\/g,'/'); // Calculate relative path from the root directory
         return `import { ${sanitizedName} } from './${relativePath}';`;
-      }).join('\n').replace('\\','/')}
+      }).join('\n').replace(/\\/g,'/')}
 
 export default [${imageFiles.map(filePath => {
         const sanitizedName = sanitizeVariableName(path.basename(filePath), usedNames);
