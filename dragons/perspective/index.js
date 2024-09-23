@@ -1,4 +1,3 @@
-
 import { $0000_webp } from './0000.webp';
 import { $0001_webp } from './0001.webp';
 import { $0002_webp } from './0002.webp';
@@ -8,5 +7,4 @@ import { $0005_webp } from './0005.webp';
 import { $0006_webp } from './0006.webp';
 import { $0007_webp } from './0007.webp';
 import { $0008_webp } from './0008.webp';
-
 export default [$0000_webp, $0001_webp, $0002_webp, $0003_webp, $0004_webp, $0005_webp, $0006_webp, $0007_webp, $0008_webp];
