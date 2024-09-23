@@ -42,7 +42,7 @@ ${imageFiles.map(filePath => {
         const sanitizedName = sanitizeVariableName(path.basename(filePath), usedNames);
         const relativePath = path.relative(directoryPath, filePath).replace('\\','/'); // Calculate relative path from the root directory
         return `import { ${sanitizedName} } from './${relativePath}';`;
-      }).join('\n')}
+      }).join('\n').replace('\\','/')}
 
 export default [${imageFiles.map(filePath => {
         const sanitizedName = sanitizeVariableName(path.basename(filePath), usedNames);
